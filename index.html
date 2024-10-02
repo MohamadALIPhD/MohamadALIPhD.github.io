@@ -10,7 +10,7 @@
       font-family: Arial, sans-serif;
     }
     .jumbotron {
-      background-color: #4CAF50;
+      background-color: #007BFF; /* Changement de la couleur verte à bleue */
       color: white;
     }
     .card {
@@ -20,6 +20,14 @@
       text-align: center;
       padding: 10px;
       background-color: #f1f1f1;
+    }
+    .btn-primary {
+      background-color: #007BFF; /* Boutons bleus pour cohérence */
+      border-color: #007BFF;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3; /* Couleur plus foncée au survol */
+      border-color: #0056b3;
     }
   </style>
 </head>
@@ -134,6 +142,7 @@
         <h5 class="card-title">PhD en Génie des Procédés</h5>
         <p class="card-text">Université de Picardie Jules Verne, France - 2016</p>
         <p>Sujet de thèse : Contribution à l’étude de la durabilité de composites cimentaires.</p>
+        <a href="/path/to/diplome-phd.pdf" class="btn btn-primary" download>Télécharger le diplôme</a> <!-- Lien vers le PDF du diplôme -->
       </div>
     </div>
 
@@ -142,6 +151,7 @@
       <div class="card-body">
         <h5 class="card-title">Master 2 en Traitement des Eaux</h5>
         <p class="card-text">Université Lille 1, France - 2012</p>
+        <a href="/path/to/diplome-master.pdf" class="btn btn-primary" download>Télécharger le diplôme</a> <!-- Lien vers le PDF du diplôme -->
       </div>
     </div>
   </div>
