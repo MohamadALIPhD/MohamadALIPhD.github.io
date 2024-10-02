@@ -1,139 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio - Mohamad ALI PhD</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        section {
-            padding: 20px;
-        }
-        h2 {
-            color: #333;
-            font-size: 1.8em;
-        }
-        h3 {
-            margin-top: 15px;
-        }
-        p {
-            margin: 5px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #007bff;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .project, .experience {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Mohamad Ali</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .card {
+      margin: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f1f1f1;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Portfolio de Mohamad ALI PhD</h1>
-    </header>
+  <!-- Header Section -->
+  <div class="jumbotron text-center">
+    <h1>Mohamad Ali, PhD</h1>
+    <p>Data Analyst | Spécialiste en Python, R, SQL, KNIME, Power BI et Tableau</p>
+    <a href="mailto:mouhamadali@gmail.com" class="btn btn-light">Contactez-moi</a>
+    <a href="https://www.linkedin.com/in/mohamad-ali-phd" class="btn btn-light">LinkedIn</a>
+    <a href="https://github.com/MohamadALIPhD" class="btn btn-light">GitHub</a>
+  </div>
 
-    <!-- À propos de moi -->
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Je suis docteur en génie des procédés et analyste de données expérimenté avec une solide expertise dans la modélisation, simulation et analyse de données appliquées aux procédés industriels et aux systèmes complexes. Fort d'une expérience en R&D, dans le milieu académique et industriel, j’ai acquis des compétences transversales en traitement des données, analyse statistique, et machine learning.</p>
-    </section>
+  <!-- About Section -->
+  <div class="container">
+    <h2>À propos de moi</h2>
+    <p>Je suis docteur en génie des procédés avec une expertise en data science, spécialisé dans l'analyse de données pour des solutions durables. Je possède une expérience approfondie en Python, R, SQL, ainsi que dans l'utilisation d'outils tels que Power BI, Tableau et KNIME.</p>
+  </div>
 
-    <!-- Compétences -->
-    <section id="competences">
-        <h2>Compétences</h2>
+  <!-- Skills Section -->
+  <div class="container">
+    <h2>Compétences</h2>
+    <div class="row">
+      <div class="col-md-4">
         <ul>
-            <li><strong>Analyse de données :</strong> Python (Pandas, NumPy), MATLAB, R, SQL</li>
-            <li><strong>Modélisation et Simulation :</strong> Aspen Plus, HYSYS, COMSOL, CFD</li>
-            <li><strong>Machine Learning :</strong> Scikit-learn, TensorFlow, Keras</li>
-            <li><strong>Outils de visualisation :</strong> Matplotlib, Seaborn, Power BI, Tableau</li>
-            <li><strong>Gestion de projet :</strong> Méthodologie Agile, gestion d’équipe, communication efficace</li>
+          <li>Python</li>
+          <li>R</li>
+          <li>SQL</li>
         </ul>
-    </section>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>Tableau</li>
+          <li>Power BI</li>
+          <li>KNIME</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul>
+          <li>Français (C1)</li>
+          <li>Anglais (C1)</li>
+          <li>Arabe (Natif)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-    <!-- Expérience professionnelle -->
-    <section id="experience">
-        <h2>Expériences professionnelles</h2>
+  <!-- Projects Section -->
+  <div class="container">
+    <h2>Projets</h2>
 
-        <div class="experience">
-            <h3>Docteur en génie des procédés - Université de Lorraine</h3>
-            <p><em>2018 - 2022</em></p>
-            <p>Recherche et développement dans la modélisation et simulation des procédés industriels. Travail sur des projets de simulation de réacteurs chimiques et optimisation des procédés à grande échelle.</p>
-        </div>
+    <!-- Project 1 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Analyse des ventes - E-commerce</h5>
+        <p class="card-text">Analyse des ventes d'une plateforme de commerce électronique, identification des tendances clés.</p>
+        <p><b>Technologies utilisées:</b> R, Microsoft Office</p>
+        <p><b>Entreprise:</b> OpenClassrooms</p>
+        <p><b>Date:</b> Mars 2023</p>
+        <a href="https://github.com/MohamadALIPhD/Projet_E-Commerce_Sales_Analysis" class="btn btn-primary">Voir le projet</a>
+      </div>
+    </div>
 
-        <div class="experience">
-            <h3>Data Analyst - ABC Data Analytics</h3>
-            <p><em>2022 - Présent</em></p>
-            <p>Analyse de grandes quantités de données dans le secteur industriel pour optimiser les procédés. Utilisation de méthodes de machine learning pour prédire les performances des systèmes.</p>
-        </div>
+    <!-- Project 2 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Analyse de données climatiques</h5>
+        <p class="card-text">Analyse des données climatiques open source et internes pour évaluer l’impact des infrastructures sur les aléas climatiques.</p>
+        <p><b>Technologies utilisées:</b> Python, SQL</p>
+        <p><b>Entreprise:</b> Generali Climate Lab</p>
+        <p><b>Date:</b> Septembre 2022 - Présent</p>
+        <a href="https://github.com/MohamadALIPhD/Projet_Climate_Data_Analysis" class="btn btn-primary">Voir le projet</a>
+      </div>
+    </div>
 
-    </section>
+    <!-- Ajouter d'autres projets ici -->
+  </div>
 
-    <!-- Formation académique -->
-    <section id="education">
-        <h2>Formation académique</h2>
-        
-        <div class="education">
-            <h3>Doctorat en Génie des Procédés - Université de Lorraine</h3>
-            <p><em>2018 - 2022</em></p>
-            <p>Thèse axée sur la simulation des procédés chimiques et la modélisation mathématique de réacteurs à grande échelle.</p>
-        </div>
+  <!-- Experience Section -->
+  <div class="container">
+    <h2>Expériences professionnelles</h2>
 
-        <div class="education">
-            <h3>Master en Génie Chimique - Université Libanaise</h3>
-            <p><em>2016 - 2018</em></p>
-            <p>Projet de recherche sur l'amélioration de l'efficacité énergétique des procédés industriels par simulation et analyse.</p>
-        </div>
-    </section>
+    <!-- Experience 1 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Data Analyst - Generali Climate Lab</h5>
+        <p class="card-text">Analyse des données climatiques et traitement des données pour évaluer l'impact des aléas climatiques sur les infrastructures.</p>
+        <p><b>Entreprise:</b> Generali IARD</p>
+        <p><b>Date:</b> Depuis Septembre 2022</p>
+      </div>
+    </div>
 
-    <!-- Projets -->
-    <section id="projects">
-        <h2>Projets</h2>
+    <!-- Experience 2 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Chercheur Doctorant en Génie des Procédés</h5>
+        <p class="card-text">Recherche sur la durabilité des matériaux de construction, en utilisant des matériaux recyclés dans le béton.</p>
+        <p><b>Université:</b> Université de Picardie Jules Verne</p>
+        <p><b>Date:</b> Octobre 2012 - Octobre 2016</p>
+      </div>
+    </div>
+  </div>
 
-        <div class="project">
-            <h3>Modélisation d’un réacteur chimique - <a href="https://github.com/MohamadALIPHD/Reacteur-Chimique">Voir sur GitHub</a></h3>
-            <p><em>2021</em> - Simulation complète d'un réacteur avec analyse des paramètres critiques influençant la production chimique.</p>
-        </div>
+  <!-- Education Section -->
+  <div class="container">
+    <h2>Formations</h2>
 
-        <div class="project">
-            <h3>Optimisation des procédés industriels - <a href="https://github.com/MohamadALIPHD/Optimisation-Process">Voir sur GitHub</a></h3>
-            <p><em>2020</em> - Projet d'optimisation multi-objectifs pour maximiser l'efficacité et minimiser les coûts des procédés industriels.</p>
-        </div>
+    <!-- Education 1 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">PhD en Génie des Procédés</h5>
+        <p class="card-text">Université de Picardie Jules Verne, France - 2016</p>
+        <p>Sujet de thèse : Contribution à l’étude de la durabilité de composites cimentaires.</p>
+      </div>
+    </div>
 
-        <div class="project">
-            <h3>Analyse des données industrielles avec machine learning - <a href="https://github.com/MohamadALIPHD/Data-Analysis-ML">Voir sur GitHub</a></h3>
-            <p><em>2022</em> - Analyse prédictive des données industrielles pour l'optimisation des performances grâce à des algorithmes de machine learning.</p>
-        </div>
+    <!-- Education 2 -->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Master 2 en Traitement des Eaux</h5>
+        <p class="card-text">Université Lille 1, France - 2012</p>
+      </div>
+    </div>
+  </div>
 
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Vous pouvez me contacter via <a href="mailto:contact@mohamadaliphd.com">contact@mohamadaliphd.com</a>.</p>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Mohamad Ali. Tous droits réservés.</p>
+    <a href="https://www.linkedin.com/in/mohamad-ali-phd" class="btn btn-light">LinkedIn</a>
+    <a href="https://github.com/MohamadALIPhD" class="btn btn-light">GitHub</a>
+  </footer>
 
 </body>
 </html>
